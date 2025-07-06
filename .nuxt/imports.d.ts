@@ -35,4 +35,5 @@ export { useGasCylindersStore, CreateCylinderData, UpdateCylinderData } from '..
 export { useOrdersStore } from '../stores/orders';
 export { useSuppliersStore, Supplier, CreateSupplierData, UpdateSupplierData } from '../stores/suppliers';
 export { defineStore, acceptHMRUpdate, usePinia, storeToRefs } from '../node_modules/@pinia/nuxt/dist/runtime/composables';
+export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';

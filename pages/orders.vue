@@ -367,8 +367,8 @@ const openStatusUpdateDialog = (order: Order) => {
   showStatusDialog.value = true;
 };
 
-const onStatusUpdated = async (updatedOrder: Order) => {
-  successMessage.value = `Order #${updatedOrder.orderNumber} status updated to ${updatedOrder.status}`;
+const onStatusUpdated = async (oldStatus: OrderStatus, updatedOrder: Order) => {
+  successMessage.value = `Order #${updatedOrder.orderNumber} status updated from ${formatStatus(oldStatus)} to ${formatStatus(updatedOrder.status)}`;
   await loadOrders();
 };
 

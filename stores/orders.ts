@@ -171,7 +171,7 @@ export const useOrdersStore = defineStore('orders', {
       }
 
       try {
-        const updatedOrder = await apiService.updateOrder(orderId, { status: status as OrderStatus }, authStore.token);
+        const updatedOrder = await apiService.updateOrderStatusExtended(orderId, authStore.token, { status: status as OrderStatus });
         const index = this.orders.findIndex(order => order.id === updatedOrder.id);
         if (index !== -1) {
           this.orders[index] = updatedOrder;

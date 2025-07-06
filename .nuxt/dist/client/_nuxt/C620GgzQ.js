@@ -1,1 +1,0 @@
-import{d as o,M as _,y as n,C as e,B as t,au as s,av as p,aw as c}from"./-SV6uRVe.js";import{_ as r}from"./DlAUqK2U.js";const m=o({__name:"empty",setup(u){return(f,l)=>{const a=p;return n(),_(c,null,{default:e(()=>[t(s,null,{default:e(()=>[t(a)]),_:1})]),_:1})}}}),x=r(m,[["__scopeId","data-v-3396eb8f"]]);export{x as default};

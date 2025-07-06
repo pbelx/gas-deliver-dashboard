@@ -87,7 +87,7 @@ const props = defineProps<Props>();
 // Emits
 const emit = defineEmits<{
   'update:modelValue': [value: boolean];
-  'status-updated': [order: Order];
+  'status-updated': [oldStatus: OrderStatus, updatedOrder: Order];
 }>();
 
 // Composables
@@ -129,8 +129,9 @@ const updateStatus = async () => {
   
   statusError.value = [];
   try {
+    const oldStatus = props.order.status;
     const updatedOrder = await ordersStore.updateOrderStatus(props.order.id, selectedStatus.value);
-    emit('status-updated', updatedOrder);
+    emit('status-updated', oldStatus, updatedOrder);
     closeDialog();
   } catch (error: any) {
     console.error('Error updating status:', error);
