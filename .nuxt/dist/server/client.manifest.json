@@ -7,12 +7,12 @@
     "module": true,
     "resourceType": "script"
   },
-  "/home/pope/zcode/hfmg/6/dash/node_modules/nuxt/dist/app/entry.js": {
+  "/home/pope/zcode/hfmg/gaskode/gas-deliver-dashboard/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "/home/pope/zcode/hfmg/6/dash/node_modules/nuxt/dist/app/entry.js"
+    "file": "/home/pope/zcode/hfmg/gaskode/gas-deliver-dashboard/node_modules/nuxt/dist/app/entry.js"
   }
 }

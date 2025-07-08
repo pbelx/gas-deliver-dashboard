@@ -19,21 +19,21 @@
             prepend-icon="mdi-format-list-bulleted"
             title="Manage Cylinders"
             to="/gas-cylinders"
-            class="ml-4"
+            class="ml-0"
           ></v-list-item>
           
           <v-list-item
             prepend-icon="mdi-account-group"
             title="Suppliers"
             to="/suppliers"
-            class="ml-4"
+            class="ml-0"
           ></v-list-item>
         </v-list-group>
       </v-list>
 
       <template v-slot:append>
         <div class="pa-2">
-          <v-btn block color="primary" @click="handleLogout">
+          <v-btn block color="#de2227" @click="handleLogout">
             Logout
           </v-btn>
         </div>
@@ -45,7 +45,7 @@
       <v-toolbar-title>Admin Dashboard</v-toolbar-title>
       <v-spacer></v-spacer>
       <span v-if="authStore.user" class="mr-5">
-        <v-chip color="primary" variant="outlined" size="small" class="mr-2">
+        <v-chip color="#de2227" variant="outlined" size="small" class="mr-2">
           <v-icon start>mdi-shield-account</v-icon>
           Admin
         </v-chip>

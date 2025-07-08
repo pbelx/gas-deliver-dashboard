@@ -41,7 +41,7 @@
           @update:model-value="applyFilters"
         ></v-select>
         
-        <v-btn color="primary" @click="loadOrders" :loading="ordersStore.loading">
+        <v-btn color="#de2227" @click="loadOrders" :loading="ordersStore.loading">
           <v-icon left>mdi-refresh</v-icon>
           Refresh
         </v-btn>

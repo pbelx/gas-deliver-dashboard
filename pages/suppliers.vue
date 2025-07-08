@@ -9,7 +9,7 @@
             <p class="text-subtitle-1 text-grey">Manage your gas cylinder suppliers</p>
           </div>
           <v-btn
-            color="primary"
+            color="#de2227"
             size="large"
             @click="openCreateDialog"
             prepend-icon="mdi-plus"
@@ -85,7 +85,7 @@
           </v-col>
           <v-col cols="12" md="3">
             <v-btn
-              color="primary"
+              color="#de2227"
               block
               @click="refreshData"
               :loading="suppliersStore.loading"
@@ -248,7 +248,7 @@
           <v-spacer></v-spacer>
           <v-btn text @click="closeDialog">Cancel</v-btn>
           <v-btn
-            color="primary"
+            color="#de2227"
             @click="saveSupplier"
             :loading="suppliersStore.loading"
             :disabled="!formValid"

@@ -1,1 +1,1 @@
-export { default } from "file:///home/pope/zcode/hfmg/6/dash/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
+export { default } from "file:///home/pope/zcode/hfmg/gaskode/gas-deliver-dashboard/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"

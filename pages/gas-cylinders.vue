@@ -9,7 +9,7 @@
             <p class="text-subtitle-1 text-grey">Manage your gas cylinder inventory</p>
           </div>
           <v-btn
-            color="primary"
+            color="#de2227"
             size="large"
             @click="openCreateDialog"
             prepend-icon="mdi-plus"
@@ -127,7 +127,7 @@
           </v-col>
           <v-col cols="12" md="2">
             <v-btn
-              color="primary"
+              color="#de2227"
               block
               @click="refreshData"
               :loading="cylindersStore.loading"

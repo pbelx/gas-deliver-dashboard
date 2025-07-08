@@ -3,12 +3,12 @@
     <v-row align="center" justify="center">
       <v-col cols="12" sm="8" md="4">
         <v-card class="elevation-12 mt-4">
-          <v-toolbar color="primary" dark flat>
+          <v-toolbar color="#de2227" dark flat>
             <v-toolbar-title>Admin Login</v-toolbar-title>
           </v-toolbar>
           <v-card-text>
             <div class="text-center mb-4">
-              <v-icon size="48" color="primary">mdi-shield-account</v-icon>
+              <v-icon size="48" color="#de2227">mdi-shield-account</v-icon>
               <p class="text-body-2 mt-2 text-medium-emphasis">
                 Admin access only. Please enter your admin credentials.
               </p>
@@ -35,7 +35,7 @@
               </v-alert>
               <v-btn
                 type="submit"
-                color="primary"
+                color="#de2227"
                 block
                 :loading="authStore.loading"
                 :disabled="authStore.loading"
